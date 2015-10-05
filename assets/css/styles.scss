@@ -183,7 +183,7 @@ a:hover, a:focus { color: $secondary-color; text-decoration: none; }
 p { color: $grey-alt; word-spacing: 1px; line-height: 25px; font-size: 16px; }
 h2 { font-size: 15px; color: #353535; text-transform: uppercase; font-weight: bold; }
 h2::after { content: " "; border: solid 2px $secondary-color; display: block; width: 35px; margin: 25px auto; }
-.section-padding { padding: 90px 0 100px }
+.section-padding { padding: 70px 0 60px; }
 .dark-bg { background: #f3f5f8; }
 .light-bg { background-color: #fff; }
 .dark-box { background: #f3f5f8; -webkit-box-shadow: 0px 3px 0px 0px #f0f2f4; -moz-box-shadow: 0px 3px 0px 0px #f0f2f4; box-shadow: 0px 3px 0px 0px #f0f2f4; }
@@ -409,4 +409,16 @@ Waypoints
 
 .bg--dark {
 	background-color: #222;
+}
+
+/* ==========================================================================
+Image gallery
+========================================================================== */
+.image-gallery {
+	background: #222;
+	img {
+		max-width: 100%;
+		vertical-align: top;
+		max-height: 500px;
+	}
 }
