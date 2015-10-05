@@ -548,8 +548,11 @@ Hero
   -webkit-box-shadow: 0px 3px 0px 0px #841151;
   -moz-box-shadow: 0px 3px 0px 0px #841151;
   box-shadow: 0px 3px 0px 0px #841151;
-  margin: 60px 0 0;
-  font-family: 'signikasemibold'; }
+  font-family: 'signikasemibold';
+  margin: 20px 0; }
+  @media screen and (min-width: 991px) {
+    .learn-more-btn {
+      margin: 60px 0 0; } }
 
 .learn-more-btn:hover, .learn-more-btn:focus {
   background: rgba(209, 49, 137, 0.6);
@@ -577,6 +580,7 @@ h1.arrow {
 Features
 ========================================================================== */
 .features-wrapper, .team-wrapper {
+  width: 100%;
   margin: 50px 0 0;
   clear: both;
   float: left; }

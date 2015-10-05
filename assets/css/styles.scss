@@ -225,7 +225,22 @@ Hero
 .hero h1 span { color: #ced7df; display: inline-block; }
 .hero p { letter-spacing: 1px; color: #ced7df; }
 /*gba(61, 201, 179, 1)*/
-.learn-more-btn { cursor: pointer; background: rgba(209, 49, 137, 1); padding: 20px 40px; border-radius: 5px; -moz-border-radius: 5px; -webkit-border-radius: 5px; -o-border-radius: 5px; color: #fff; text-transform: uppercase; letter-spacing: 1px; display: inline-block; -webkit-box-shadow: 0px 3px 0px 0px #841151; -moz-box-shadow: 0px 3px 0px 0px #841151; box-shadow: 0px 3px 0px 0px #841151; margin: 60px 0 0; font-family: 'signikasemibold'; }
+.learn-more-btn { 
+	cursor: pointer; 
+	background: rgba(209, 49, 137, 1); 
+	padding: 20px 40px; 
+	border-radius: 5px; -moz-border-radius: 5px; -webkit-border-radius: 5px; -o-border-radius: 5px; 
+	color: #fff; 
+	text-transform: uppercase; 
+	letter-spacing: 1px; 
+	display: inline-block; 
+	-webkit-box-shadow: 0px 3px 0px 0px #841151; -moz-box-shadow: 0px 3px 0px 0px #841151; box-shadow: 0px 3px 0px 0px #841151; 
+	font-family: 'signikasemibold'; 
+	margin: 20px 0; 
+	@media screen and (min-width:991px) {
+		margin: 60px 0 0; 
+	}
+}
 .learn-more-btn:hover, .learn-more-btn:focus { background: rgba(209, 49, 137, 0.6); color: #fff; }
 /* ==========================================================================
 Intro
@@ -236,7 +251,7 @@ h1.arrow { font-size: 20px; text-transform: uppercase; color: #353535; letter-sp
 /* ==========================================================================
 Features
 ========================================================================== */
-.features-wrapper, .team-wrapper { margin: 50px 0 0; clear: both; float: left; }
+.features-wrapper, .team-wrapper { width: 100%; margin: 50px 0 0; clear: both; float: left; }
 .shadow { text-shadow: rgb(132, 17, 81) 1px 1px, rgb(132, 17, 81) 2px 2px, rgb(132, 17, 81) 3px 3px, rgb(132, 17, 81) 4px 4px, rgb(132, 17, 81) 5px 5px, rgb(132, 17, 81) 6px 6px, rgb(132, 17, 81) 7px 7px, rgb(132, 17, 81) 8px 8px, rgb(132, 17, 81) 9px 9px, rgb(132, 17, 81) 10px 10px, rgb(132, 17, 81) 11px 11px, rgb(132, 17, 81) 12px 12px, rgb(133, 18, 82) 13px 13px, rgb(134, 19, 83) 14px 14px; }
 .icon { height: 175px; width: 175px; line-height: 175px; max-width: 100%; background: $secondary-color; border-radius: 50%; -o-border-radius: 50%; -moz-border-radius: 50%; -webkit-border-radius: 50%; display: block; color: #fff; font-size: 55px; text-align: center; vertical-align: middle; position: relative; margin: 0 auto 50px; }
 /* ==========================================================================
