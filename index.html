@@ -6,8 +6,6 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<title>Rozengracht 247B Amsterdam</title>
 
-		<link href="assets/css/queries.css" rel="stylesheet">
-		<link href="assets/css/animate.css" rel="stylesheet">
 		<link href="assets/css/styling.css" rel="stylesheet">
 		<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
 		<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -15,6 +13,10 @@
 		<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
 		<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
 		<![endif]-->
+
+        <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?sensor=false"></script>
+        
+        <script type="text/javascript" src="assets/js/map.js"></script>
 	</head>
 	<body id="top">
 		<header id="home">
@@ -27,6 +29,8 @@
 									<li><a href="#intro">Introduction <span class="indicator"><i class="fa fa-angle-right"></i></span></a></li>
 									<li><a href="#facts">Facts <span class="indicator"><i class="fa fa-angle-right"></i></span></a></li>
 									<li><a href="#quote">Reviews <span class="indicator"><i class="fa fa-angle-right"></i></span></a></li>
+									<li><a href="#imageGallery">Gallery <span class="indicator"><i class="fa fa-angle-right"></i></span></a></li>
+									
 									<li><a href="#get-in-touch">Get in touch <span class="indicator"><i class="fa fa-angle-right"></i></span></a></li>
 								</ul>
 							</nav>
@@ -155,7 +159,7 @@
 								<li>
 									<div class="col-md-6 wp5">
 										<a href="https://www.airbnb.com/users/show/2383813" target="_blank" class="external-link">
-											<img src="assets/img/rachel.png" alt="Rachel">
+											<img src="assets/img/rachel.png" width="202" height="220" alt="Rachel">
 											<i class="fa fa-link"></i>
 										</a>
 										<h2>
@@ -169,7 +173,7 @@
 									</div>
 									<div class="col-md-6 wp5 delay-05s">
 										<a href="https://www.airbnb.com/users/show/11941464" target="_blank" class="external-link">
-											<img src="assets/img/tazkiyah.png" alt="Tazkiyah">
+											<img src="assets/img/tazkiyah.png" width="202" height="220" alt="Tazkiyah">
 											<i class="fa fa-link"></i>
 										</a>
 										<h2>
@@ -185,7 +189,7 @@
 								<li>
 									<div class="col-md-6 wp5">
 										<a href="https://www.airbnb.com/users/show/24549818" target="_blank" class="external-link">
-											<img src="assets/img/gladson.png" alt="Gladson">
+											<img src="assets/img/gladson.png" width="202" height="220" alt="Gladson">
 											<i class="fa fa-link"></i>
 										</a>
 										<h2>
@@ -200,7 +204,7 @@
 
 									<div class="col-md-6 wp5 delay-05s">
 										<a href="https://www.airbnb.com/users/show/41639246" target="_blank" class="external-link">
-											<img src="assets/img/martin.png" alt="Martin">
+											<img src="assets/img/martin.png" width="202" height="220" alt="Martin">
 											<i class="fa fa-link"></i>
 										</a>
 										<h2>
@@ -267,7 +271,9 @@
 				</div>
 			</div>
 		</section>
-
+		
+		<div id="map"></div>
+		
 		<section class="contact-ivana text-center" id="get-in-touch">
 			<div class="container">
 				<h1><i class="fa fa-paper-plane"></i><span>Contact for general inquiries or emergency:</span></h1>
@@ -293,11 +299,6 @@
 			</div>
 		</footer>
 
-		<script src="assets/js/jquery.js"></script>
-		<script src="assets/js/waypoints.min.js"></script>
-		<script src="assets/js/bootstrap.min.js"></script>
-		<script src="assets/js/scripts.js"></script>
-		<script src="assets/js/jquery.flexslider.js"></script>
-		<script src="assets/js/modernizr.js"></script>
+		<script src="assets/js/min/app.min.js"></script>
 	</body>
 	</html>
