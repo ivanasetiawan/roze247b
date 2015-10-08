@@ -27,10 +27,14 @@ function init() {
     // Create the Google Map using our element and options defined above
     var map = new google.maps.Map(mapElement, mapOptions);
 
+    // Icon base
+    var iconURL = 'http://rozengracht247b.nl/assets/img/marker.png';
+
     // Let's also add a marker while we're at it
     var marker = new google.maps.Marker({
         position: new google.maps.LatLng(52.371883, 4.875128),
         map: map,
-        title: 'Rozengracht 247B'
+        title: 'Rozengracht 247B',
+        icon: iconURL
     });
 }
