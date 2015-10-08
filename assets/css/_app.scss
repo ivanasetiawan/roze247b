@@ -38,7 +38,7 @@ body { margin: 0; font-family: 'signikalight', sans-serif; }
 Links
 ========================================================================== */
 /* * Addresses `outline` inconsistency between Chrome and other browsers. */
- 
+a { cursor: pointer; transition: color 0.2s, background 0.3s;}
 a:focus { outline: thin dotted; }
 /* * Improves readability when focused and also mouse hovered in all browsers. */
 a:active, a:hover { outline: 0; }
